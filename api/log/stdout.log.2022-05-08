@@ -1,0 +1,26 @@
+[2022-05-08 20:54:56] [INFO]  [INFO] HttpServerRun:8100
+
+[2022-05-08 20:54:59] [INFO] [request POST /api/login password_again=888] map[csid: ip:127.0.0.1 sid:1d77bda278629a0f tid:7f0000016277bda31090e605658221b0]
+[2022-05-08 20:54:59] [INFO] [response POST /api/login {"code":"param_err","msg":"请求错误, 请检查数据","data":{},"tid":"7f0000016277bda31090e605658221b0","ref":"用户名为必填字段,密码为必填字段,确认密码为必填字段"}] map[csid: ip:127.0.0.1 runtime:0.001185993 sid:1d77bda278629a0f tid:7f0000016277bda31090e605658221b0]
+[2022-05-08 20:56:34] [FATAL]  [ERROR] HttpServerRun:8100 err:http: Server closed
+
+/Users/chen/maat/coding/go/blockchain-deal-hunter/api/router/http_server.go:30 HttpServerRun.func1
+/usr/local/Cellar/go/1.16.2/libexec/src/runtime/asm_amd64.s:1371               goexit
+[2022-05-08 20:56:37] [INFO]  [INFO] HttpServerRun:8100
+
+[2022-05-08 20:56:39] [INFO] [request POST /api/login password_again=888] map[csid: ip:127.0.0.1 sid:1d77be0678629a0f tid:7f0000016277be076710e660658221b0]
+[2022-05-08 20:56:39] [INFO] [response POST /api/login {"code":"param_err","msg":"呵呵","data":{},"tid":"7f0000016277be076710e660658221b0","ref":"用户名为必填字段,密码为必填字段,确认密码为必填字段"}] map[csid: ip:127.0.0.1 runtime:0.000993852 sid:1d77be0678629a0f tid:7f0000016277be076710e660658221b0]
+[2022-05-08 20:56:48] [FATAL]  [ERROR] HttpServerRun:8100 err:http: Server closed
+
+/Users/chen/maat/coding/go/blockchain-deal-hunter/api/router/http_server.go:30 HttpServerRun.func1
+/usr/local/Cellar/go/1.16.2/libexec/src/runtime/asm_amd64.s:1371               goexit
+[2022-05-08 20:56:51] [INFO]  [INFO] HttpServerRun:8100
+
+[2022-05-08 20:56:53] [INFO] [request POST /api/login password_again=888] map[csid: ip:127.0.0.1 sid:1d77be1478629a0f tid:7f0000016277be15b940e68f658221b0]
+[2022-05-08 20:56:53] [INFO] [response POST /api/login {"code":"param_err","msg":"请求错误, 请检查数据","data":{},"tid":"7f0000016277be15b940e68f658221b0","ref":"用户名为必填字段,密码为必填字段,确认密码为必填字段"}] map[csid: ip:127.0.0.1 runtime:0.000726231 sid:1d77be1478629a0f tid:7f0000016277be15b940e68f658221b0]
+[2022-05-08 20:57:11] [INFO] [request POST /api/login re_password=888] map[csid: ip:127.0.0.1 sid:1d77be26380704bb tid:7f0000016277be271ed0e68f104dc7b0]
+[2022-05-08 20:57:11] [INFO] [response POST /api/login {"code":"param_err","msg":"请求错误, 请检查数据","data":{},"tid":"7f0000016277be271ed0e68f104dc7b0","ref":"用户名为必填字段,密码为必填字段,确认密码必须等于Password"}] map[csid: ip:127.0.0.1 runtime:0.001046981 sid:1d77be26380704bb tid:7f0000016277be271ed0e68f104dc7b0]
+[2022-05-08 20:57:16] [INFO] [request POST /api/login password=777&re_password=888] map[csid: ip:127.0.0.1 sid:1d77be2d57e9d186 tid:7f0000016277be2cd458e68f5a8581b0]
+[2022-05-08 20:57:16] [INFO] [response POST /api/login {"code":"param_err","msg":"请求错误, 请检查数据","data":{},"tid":"7f0000016277be2cd458e68f5a8581b0","ref":"用户名为必填字段,确认密码必须等于Password"}] map[csid: ip:127.0.0.1 runtime:0.000640422 sid:1d77be2d57e9d186 tid:7f0000016277be2cd458e68f5a8581b0]
+[2022-05-08 20:57:20] [INFO] [request POST /api/login mobile=%E6%B0%B4%E7%94%B5%E8%B4%B9&password=777&re_password=888] map[csid: ip:127.0.0.1 sid:1d77be311408d2ac tid:7f0000016277be3016f0e68f66cb39b0]
+[2022-05-08 20:57:20] [INFO] [response POST /api/login {"code":"param_err","msg":"请求错误, 请检查数据","data":{},"tid":"7f0000016277be3016f0e68f66cb39b0","ref":"用户名为必填字段,确认密码必须等于Password"}] map[csid: ip:127.0.0.1 runtime:0.000442612 sid:1d77be311408d2ac tid:7f0000016277be3016f0e68f66cb39b0]
